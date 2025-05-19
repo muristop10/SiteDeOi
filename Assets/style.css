@@ -1,0 +1,79 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin: 15px;
+}
+
+#sectionIntroducao {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    background-color: rgb(30, 30, 30);
+    padding: 10px;
+    border-right: 5px groove #FAFAFA;
+    border-radius: 5px;
+}
+
+body #sectionFooter {
+    text-align: center;
+}
+
+.bordaZica {
+    border-left: 5px solid #FAFAFA;
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(21, 22, 22);
+    border-radius: 5px;
+}
+
+.bordaZica a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.bordaZica li:hover {
+    background-color: rgb(39, 38, 38);
+    padding: 15px;
+    transition: 0.5s ease;
+    border-radius: 5px;
+}
+
+.bordaZica li {
+    transition: 0.5s ease;
+    margin: 2%;
+}
+
+.bordaZica ul {
+    list-style-type: none;
+    display:inline-flex;
+}
+
+#footerIndex {
+    background-color: rgb(39, 38, 38);
+    padding: 10px;
+    margin: 15px auto 15px auto;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: left;
+}
+
+#footerIndex a {
+    text-decoration: none;
+    color: #fff1f1;
+    transition: 0.5s ease;
+}
+
+#footerIndex a:hover {
+    background-color: rgb(0, 0, 0);
+    transition: 0.5s ease;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+#footerIndex li {
+    font-style: italic;
+}
