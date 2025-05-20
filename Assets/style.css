@@ -6,7 +6,12 @@ body {
     margin: 15px;
 }
 
-#sectionIntroducao {
+.sectionIntroducao a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.sectionIntroducao {
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -52,7 +57,7 @@ body #sectionFooter {
     display:inline-flex;
 }
 
-#footerIndex {
+.footerModelo {
     background-color: rgb(39, 38, 38);
     padding: 10px;
     margin: 15px auto 15px auto;
@@ -61,19 +66,19 @@ body #sectionFooter {
     text-align: left;
 }
 
-#footerIndex a {
+.footerModelo a {
     text-decoration: none;
     color: #fff1f1;
     transition: 0.5s ease;
 }
 
-#footerIndex a:hover {
+.footerModelo a:hover {
     background-color: rgb(0, 0, 0);
     transition: 0.5s ease;
     padding: 2px;
     border-radius: 5px;
 }
 
-#footerIndex li {
+.footerModelo li {
     font-style: italic;
 }
