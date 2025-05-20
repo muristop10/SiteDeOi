@@ -6,6 +6,10 @@ body {
     margin: 15px;
 }
 
+p a:hover {
+    text-decoration: underline;
+}
+
 .sectionIntroducao a {
     text-decoration: none;
     color: whitesmoke;
