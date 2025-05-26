@@ -18,6 +18,7 @@ p a:hover {
 .sectionIntroducao {
     margin-top: 20px;
     margin-bottom: 20px;
+    font-size: 20px;
 }
 
 header h1 {
@@ -25,6 +26,13 @@ header h1 {
     padding: 10px;
     border-right: 5px groove #FAFAFA;
     border-radius: 5px;
+    font-size: 50px;
+    text-align: center;
+}
+
+header h2 {
+    text-align: center;
+    margin: 50px;
 }
 
 body #sectionFooter {
@@ -39,11 +47,8 @@ body #sectionFooter {
     border-radius: 5px;
 }
 
-.bordaZica a {
+nav a {
     text-decoration: none;
-    display: block;
-    width: 100%;
-    height: 100%;
     color: whitesmoke;
 }
 
@@ -57,20 +62,20 @@ body #sectionFooter {
 .bordaZica li {
     transition: 0.5s ease;
     margin: 2%;
+    /* MUDAR A MARGIN COM META */
 }
 
 .bordaZica ul {
     list-style-type: none;
-    display:inline-flex;
+    display: contents;
 }
 
 .footerModelo {
     background-color: rgb(39, 38, 38);
     padding: 10px;
-    margin: 15px auto 15px auto;
     border-radius: 5px;
     display: inline-block;
-    text-align: left;
+    text-align: center;
 }
 
 .footerModelo a {
