@@ -9,6 +9,7 @@ body {
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     margin: 15px;
+    font-size: 125%
 }
 
 #sectionSobreNos figure { 
@@ -119,4 +120,8 @@ nav a {
 
 .footerModelo li {
     font-style: italic;
+}
+
+@media screen {
+    
 }
