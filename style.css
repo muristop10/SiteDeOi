@@ -124,7 +124,7 @@ nav a {
 }
 
 @media (max-width: 600px) {
-    #sectionSobreNos img, .bordaZica img {
+    #sectionSobreNos img {
         width: 80%; /* aumenta a imagem para telas pequenas */
         margin: auto;
         display: block;
@@ -134,5 +134,15 @@ nav a {
         flex-direction: column;
         align-items: center;
         text-align: center;
+    }
+
+    .bordaZica {
+        width: 90%;
+        margin: 15px;
+        display: block;
+    }
+
+    .bordaZica img {
+        width: 75%;
     }
 }
