@@ -1,3 +1,4 @@
+/* body e fonte */
 @font-face {
     font-family: "fonteZica";
     src: url(./IBM_Plex_Sans/IBMPlexSans-Italic-VariableFont_wdth\,wght.ttf);
@@ -122,6 +123,16 @@ nav a {
     font-style: italic;
 }
 
-@media screen {
-    
+@media (max-width: 600px) {
+    #sectionSobreNos img, .bordaZica img {
+        width: 80%; /* aumenta a imagem para telas pequenas */
+        margin: auto;
+        display: block;
+    }
+
+    #sectionSobreNos figure {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 }
