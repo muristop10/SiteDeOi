@@ -124,6 +124,14 @@ nav a {
     font-style: italic;
 }
 
+#videoDocumentario {
+    width: 75%;
+}
+
+#sectionVideoDocumentario {
+    margin: 15px;
+}
+
 @media (max-width: 600px) {
     #sectionSobreNos img {
         width: 80%; /* aumenta a imagem para telas pequenas */
@@ -144,6 +152,10 @@ nav a {
     }
 
     .bordaZica img {
+        width: 90%;
+    }
+
+    #videoDocumentario {
         width: 90%;
     }
 }
