@@ -46,6 +46,7 @@ p a:hover {
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 20px;
+    text-align: justify;
 }
 
 header h1 {
@@ -138,7 +139,7 @@ nav a {
 
     .bordaZica {
         width: 90%;
-        margin: 15px;
+        margin: 15px auto;
         display: block;
     }
 
