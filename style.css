@@ -132,6 +132,16 @@ nav a {
     margin: 15px;
 }
 
+.bordaZica a img {
+    transition: 0.5s ease;
+}
+
+.bordaZica a img:hover {
+    border: 2px solid red;
+    margin: 15px;
+    transition: 0.5s ease;
+}
+
 @media (max-width: 600px) {
     #sectionSobreNos img {
         width: 80%; /* aumenta a imagem para telas pequenas */
