@@ -177,8 +177,11 @@ nav a {
     border-radius: 3px;
 }
 
-.emailsContainer {
+.emailsContainer, .musicas-container {
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 /* CASO QUEIRA USAR UM QUADRADO DE EMAILS
