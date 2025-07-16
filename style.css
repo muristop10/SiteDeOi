@@ -160,14 +160,16 @@ nav a {
     transition: 0.5s ease;
 }
 
-.musicas-container {
-    padding: 15px;
+
+/* DOIS OU MAIS QUADRADOS */
+.musicas-container, .sectionEmails {
+    padding: 10px;
     margin: 2%;
     align-items: center;
     text-align: center;
 }
 
-.musicas-container section {
+.musicas-container section, .emailsContainer section {
     border: 2px solid white;
     display: inline-block;
     padding: 3%;
@@ -176,6 +178,11 @@ nav a {
 }
 
 .emailsContainer {
+    text-align: center;
+}
+
+/* CASO QUEIRA USAR UM QUADRADO DE EMAILS
+ .emailsContainer {
     margin: 15px;
 }
 
@@ -184,9 +191,20 @@ nav a {
     padding: 2%;
     margin: 2%;
     border-radius: 3px;
+} */
+
+.emailsContainer li {
+    transition: 0.5s ease;
 }
 
-
+.emailsContainer li:hover {
+    background-color: rgb(99, 99, 99);
+    margin: 7px;
+    padding: 3px;
+    transition: 0.5s ease;
+    border-radius: 3px;
+    cursor: pointer;
+}
 
 @media (max-width: 700px) {
     #sectionSobreNos img {
