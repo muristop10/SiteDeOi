@@ -177,15 +177,15 @@ nav a {
     border-radius: 3px;
 }
 
-.musicas-container section a {
-    text-decoration: none;
-    color: red;
+.musicas-container section img {
     transition: 0.5s ease;
+    width: 30%;
 }
 
-.musicas-container section a:hover {
+.musicas-container section img:hover {
     transition: 0.5s ease;
-    text-decoration: underline;
+    margin: 2%;
+    border: 2px solid white;
 }
 
 .emailsContainer, .musicas-container {
@@ -221,6 +221,11 @@ nav a {
 }
 
 @media (max-width: 700px) {
+    .musicas-container section img {
+    transition: 0.5s ease;
+    width: 60%;
+}
+
     #sectionSobreNos img {
         width: 80%; /* aumenta a imagem para telas pequenas */
         display: block;
