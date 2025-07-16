@@ -27,6 +27,13 @@ body {
     border-radius: 5px;
     border: 1px solid white;
     margin-right: 2%;
+    transition: 0.5s ease;
+}
+
+#sectionSobreNos img:hover {
+    transition: 0.5s ease;
+    margin: 2%;
+    border: 2px solid white
 }
 
 #sectionNavIndex {
@@ -73,6 +80,17 @@ body #sectionFooter {
     text-align: center;
     background-color: rgb(21, 22, 22);
     border-radius: 5px;
+}
+
+.bordaZica img {
+    transition: 0.5s ease;
+}
+
+.bordaZica img:hover {
+    transition: 0.5s ease;
+    margin: 2%;
+    border: 2px solid white;
+    border-radius: 3px;
 }
 
 nav a {
@@ -157,6 +175,18 @@ nav a {
     border-radius: 3px;
 }
 
+.emailsContainer {
+    margin: 15px;
+}
+
+.sectionEmails {
+    border: 2px solid white;
+    padding: 2%;
+    margin: 2%;
+    border-radius: 3px;
+}
+
+
 
 @media (max-width: 600px) {
     #sectionSobreNos img {
@@ -183,5 +213,18 @@ nav a {
 
     #videoDocumentario {
         width: 90%;
+    }
+
+    .emailsContainer {
+        text-align: center;
+        margin: 15px;
+    }
+
+    .sectionEmails {
+        border: 2px solid white;
+        padding: 2%;
+        margin: 2%;
+        border-radius: 3px;
+        display: inline-block;
     }
 }
