@@ -198,7 +198,7 @@ nav a {
 }
 
 .emailsContainer li:hover {
-    background-color: rgb(99, 99, 99);
+    background-color: rgb(52, 52, 52);
     margin: 7px;
     padding: 3px;
     transition: 0.5s ease;
