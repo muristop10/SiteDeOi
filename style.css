@@ -228,16 +228,21 @@ nav a {
 
     .bordaZica {
         width: 90%;
-        margin: 15px auto;
+        margin: auto auto;
         display: block;
+        text-align: center;
+        box-sizing: border-box;
     }
 
     .bordaZica img {
-        width: 90%;
+        width: 90%
     }
 
     #videoDocumentario {
-        width: 90%;
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
     }
 
     .emailsContainer {
